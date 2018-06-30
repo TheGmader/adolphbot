@@ -36,9 +36,9 @@ bot.on('message', message => {
             .setAuthor("TheGmader", "https://image.noelshack.com/fichiers/2018/26/6/1530351587-logo-moi.png")
         message.channel.sendEmbed(embed);
         var embed = new Discord.RichEmbed()
-            .setTitle("Don")
+            .setTitle("Dons")
             .setDescription("Si vous souhaitez faire un don... : \n https://paypal.me/pools/c/85xeFMxiDS")
-            .setThumbnail("https://image.noelshack.com/fichiers/2018/26/6/1530366038-icons8-recupere-l-argent-100.png")
+            .setThumbnail("https://image.noelshack.com/fichiers/2018/26/6/1530366161-icons8-recupere-l-argent-100-1.png")
             .setColor("0x00A2FF")
             .setAuthor("TheGmader", "https://image.noelshack.com/fichiers/2018/26/6/1530351587-logo-moi.png")
         message.channel.sendEmbed(embed);
