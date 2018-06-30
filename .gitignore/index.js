@@ -9,7 +9,7 @@ bot.on('ready', function() {
 
 });
 
-bot.login("NDYyNTQ3NjYzOTA1MDk1Njgw.DhjcmA.fVyUEvSlWXYrzDTrhIzAZxC3QCA");
+bot.login("process.env.TOKEN");
 
 bot.on('message', message => {
     if (message.content === prefix + "embed"){
